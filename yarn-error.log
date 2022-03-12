@@ -34,7 +34,7 @@ npm manifest:
     "license": "MIT",
     "scripts": {
       "compile": "npx hardhat compile",
-      "deploy:ropsten": "npx hardhat run scripts/deploy.js --network ropsten",
+      "deploy:rinkeby": "npx hardhat run scripts/deploy.js --network rinkeby",
       "deploy:local": "npx hardhat run scripts/deploy.js --network local",
       "test": "npx hardhat test"
     },
