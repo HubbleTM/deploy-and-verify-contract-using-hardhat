@@ -7,7 +7,19 @@
     "compile": "npx hardhat compile",
     "deploy:rinkeby": "npx hardhat run scripts/deploy.js --network rinkeby",
     "deploy:local": "npx hardhat run scripts/deploy.js --network local",
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "accounts": "npx hardhat accounts",
+    "clean": "npx hardhat clean",
+    "node-up": "npx hardhat node",
+    "help": "npx hardhat help",
+    "test:gas": "REPORT_GAS=true npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "lint": "npx eslint '**/*.js'",
+    "lint:fix": "npx eslint '**/*.js' --fix",
+    "prettier": "npx prettier '**/*.{json,sol,md}' --check",
+    "prettier:fix": "npx prettier '**/*.{json,sol,md}' --write",
+    "solhint": "npx solhint 'contracts/**/*.sol'",
+    "solhint:fix": "npx solhint 'contracts/**/*.sol' --fix"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
